@@ -2,11 +2,39 @@
 
 _Bootstrapped with [imba-vite-template](https://github.com/imba/imba-vite-template)._
 
-Welcome to the Imba Vite template! Let's get you set up and ready to code!
+## What steps did I follow to deploy this to Netlify?
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/imba/imba-vite-template)
+### 1) Click "Add new site"
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimba%2Fimba-vite-template)
+<img width="273" alt="image" src="https://user-images.githubusercontent.com/1154150/189817594-fb45f6b0-ef0b-4115-bddb-67a532538987.png">
+
+_Or go directly to https://app.netlify.com/start_
+
+### 2) Pick "Github" (or the git provider you use)
+
+<img width="694" alt="image" src="https://user-images.githubusercontent.com/1154150/189817746-3dd72cc3-d283-4816-84ee-79a711bb2a3c.png">
+
+_Or, once your git provider is authorized, you can go directly to https://app.netlify.com/start/repos_
+
+### 3) Pick the repository
+
+Search for this repo that you want to deploy:
+
+<img width="731" alt="image" src="https://user-images.githubusercontent.com/1154150/189818063-7f38aeef-8a44-4453-92a0-a7cd6a2ac7a3.png">
+
+### 4) Click "Deploy site"!
+
+The default settings are perfect. We want to run `npm run build` ✔️ and we want to publish the `dist/` directory ✔️.
+
+<img width="699" alt="image" src="https://user-images.githubusercontent.com/1154150/189818440-e45216eb-3502-417d-9f00-0424f0ec689b.png">
+
+### 5) Update your Netlify badge
+
+To make the Netlify badge in this README.md file represent your site, click into the **Site settings** -> **General** -> **Status badges** and click the copy button.
+
+Then replace the first line of the README.md file with your own status badge
+
+<img width="1201" alt="image" src="https://user-images.githubusercontent.com/1154150/189818916-b41e823e-0bd1-4866-b1e9-f41267f96812.png">
 
 
 ## Code structure
@@ -65,5 +93,6 @@ Run and watch the tests.
 Run and watch the tests - and open the [Vitest UI](https://vitest.dev/guide/ui.html)
 
 ## Notes
+
 - This app doesn't have a server. If you need a full stack web application with server logic you can use [imba base template](https://github.com/imba/imba-base-template) or check out [Vite's backend integration guide](https://vitejs.dev/guide/backend-integration.html)
 - There is a temporary `src/main.js` file that is still necessary for Vite to work correctly. You don't have to do anything with this file. And this will probably be fixed in a future version of Vite.
