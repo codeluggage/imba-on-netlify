@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5aad6d39-168c-482a-9f52-3d8cd9e1c8d1/deploy-status)](https://app.netlify.com/sites/vite-imba/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a37075c-2a9d-429f-8c63-f7cce986e52f/deploy-status)](https://app.netlify.com/sites/imba-vite/deploys)
 
 _Bootstrapped with [imba-vite-template](https://github.com/imba/imba-vite-template)._
 
